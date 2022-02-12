@@ -1,4 +1,5 @@
 ---
+download: true
 # try also 'default' to start simple
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
@@ -50,7 +51,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 [豆瓣](https://book.douban.com/subject/30329536/)评分高达 9.7 分。 关于数据库、分布式系统。 注定要成为经典的书。
 
-![](/images/01.png)
+![](https://raw.githubusercontent.com/rameosu/ddia/master/images/01.png)
 
 ---
 
@@ -126,7 +127,6 @@ h1 {
 </style>
 
 ---
-
 # 何为数据密集型应用？
 
 现今很多应用程序都是 **数据密集型（data-intensive）** 的，而非 **计算密集型（compute-intensive）** 的。因此 CPU 很少成为这类应用的瓶颈，更大的问题通常来自数据量、数据复杂性、以及数据的变更速度。
@@ -146,7 +146,7 @@ h1 {
 
 # 数据密集型应用的典型架构
 
-<img src="images/02.png" style="width: 800px;height: 400px;"/>
+<img src="https://raw.githubusercontent.com/rameosu/ddia/master/images/02.png" style="width: 800px;height: 400px;"/>
 
 ---
 
@@ -296,7 +296,7 @@ red {
 
 # 第二章：数据模型与查询语言
 
-<img src="images/04.png" style="width: 800px;height: 450px;"/>
+<img src="https://raw.githubusercontent.com/rameosu/ddia/master/images/04.png" style="width: 800px;height: 450px;"/>
 
 
 ---
@@ -472,7 +472,7 @@ OLTP 系统往往对业务运作至关重要，因而通常会要求 高可用 �
 ---
 
 # 典型的数据仓库结构图
-<img src="images/05.png" style="width: 800px;height: 450px;"/>
+<img src="https://raw.githubusercontent.com/rameosu/ddia/master/images/05.png" style="width: 800px;height: 450px;"/>
 
 ---
 
